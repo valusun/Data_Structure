@@ -70,7 +70,6 @@ class DeletableHeapq:
         Notes:
             要素がない場合は`None`を返す
         """
-
         if (p := self.get_max()) is None:
             return None
         self.erase(p)
